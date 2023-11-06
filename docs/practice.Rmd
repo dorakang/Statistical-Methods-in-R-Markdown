@@ -2,14 +2,20 @@
 title: "Practice"
 author: "Sungkyung Kang"
 date: "2023-11-06"
-output: html_document
+output: 
+  html_document:
+    fig_caption: yes
+    theme: cerulean
+    toc: yes
+    toc_depth: 3
+    toc_floot: yes
 ---
 
 ```{r setup, include=FALSE}
 #knitr::opts_chunk$set(echo = TRUE)
 ```
 
-
+# Data adventure
 
 ```{r cars}
 summary(cars)
